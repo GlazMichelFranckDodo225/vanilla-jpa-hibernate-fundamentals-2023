@@ -7,7 +7,7 @@
     <!-- Define Persistence Unit-->
     <persistence-unit name="my-persistence-unit" transaction-type="RESOURCE_LOCAL">
         <description>description</description>
-        <!-- Kind of the Main Class for the Hibernate JPA implementation -->
+        <!-- Kind of Main Class for the Hibernate JPA implementation -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
 
